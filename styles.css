@@ -1,0 +1,83 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #21151b, #49303a, #21151b);
+    font-family: Georgia, serif;
+    color: #f7eadb;
+    padding: 25px;
+}
+
+.inicio {
+    width: 100%;
+    max-width: 650px;
+    padding: 55px 35px;
+    text-align: center;
+    border: 1px solid #b99a70;
+    border-radius: 12px;
+    background: rgba(25, 16, 21, 0.75);
+    box-shadow: 0 15px 60px rgba(0, 0, 0, 0.4);
+}
+
+.subtitulo {
+    color: #d4b78b;
+    letter-spacing: 5px;
+    font-size: 12px;
+    margin-bottom: 25px;
+}
+
+h1 {
+    font-size: clamp(42px, 8vw, 70px);
+    font-weight: normal;
+    color: #e5c99f;
+    margin-bottom: 20px;
+}
+
+.separador {
+    color: #c49b65;
+    margin: 25px 0;
+    letter-spacing: 10px;
+}
+
+.mensaje {
+    font-size: 19px;
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
+
+.pregunta {
+    font-style: italic;
+    color: #d6bca8;
+    margin-bottom: 30px;
+}
+
+button {
+    padding: 15px 30px;
+    border: 1px solid #d4b78b;
+    border-radius: 5px;
+    background: transparent;
+    color: #f7eadb;
+    font-family: Georgia, serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #d4b78b;
+    color: #21151b;
+}
+
+.firma {
+    margin-top: 40px;
+    color: #b99a70;
+    font-size: 14px;
+}
